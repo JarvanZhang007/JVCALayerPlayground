@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDD6824D1E89E07D00D07488 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD6824C1E89E07D00D07488 /* AppDelegate.swift */; };
+		DDD682521E89E07D00D07488 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD682501E89E07D00D07488 /* Main.storyboard */; };
+		DDD682541E89E07D00D07488 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD682531E89E07D00D07488 /* Assets.xcassets */; };
+		DDD682571E89E07D00D07488 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD682551E89E07D00D07488 /* LaunchScreen.storyboard */; };
+		DDD6825F1E8A146C00D07488 /* JVmusicAppWidgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD6825E1E8A146C00D07488 /* JVmusicAppWidgetViewController.swift */; };
+		DDD682611E8A151B00D07488 /* JVactivityIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD682601E8A151B00D07488 /* JVactivityIndicatorViewController.swift */; };
+		DDD682631E8A279000D07488 /* JVvisualEffectEaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD682621E8A279000D07488 /* JVvisualEffectEaskViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DDD682491E89E07D00D07488 /* JVCALayerPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JVCALayerPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD6824C1E89E07D00D07488 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDD682511E89E07D00D07488 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDD682531E89E07D00D07488 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDD682561E89E07D00D07488 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDD682581E89E07D00D07488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDD6825E1E8A146C00D07488 /* JVmusicAppWidgetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JVmusicAppWidgetViewController.swift; sourceTree = "<group>"; };
+		DDD682601E8A151B00D07488 /* JVactivityIndicatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JVactivityIndicatorViewController.swift; sourceTree = "<group>"; };
+		DDD682621E8A279000D07488 /* JVvisualEffectEaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JVvisualEffectEaskViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDD682461E89E07D00D07488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDD682401E89E07D00D07488 = {
+			isa = PBXGroup;
+			children = (
+				DDD6824B1E89E07D00D07488 /* JVCALayerPlayground */,
+				DDD6824A1E89E07D00D07488 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDD6824A1E89E07D00D07488 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDD682491E89E07D00D07488 /* JVCALayerPlayground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDD6824B1E89E07D00D07488 /* JVCALayerPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				DDD6824C1E89E07D00D07488 /* AppDelegate.swift */,
+				DDD682501E89E07D00D07488 /* Main.storyboard */,
+				DDD682531E89E07D00D07488 /* Assets.xcassets */,
+				DDD682551E89E07D00D07488 /* LaunchScreen.storyboard */,
+				DDD682581E89E07D00D07488 /* Info.plist */,
+				DDD6825E1E8A146C00D07488 /* JVmusicAppWidgetViewController.swift */,
+				DDD682601E8A151B00D07488 /* JVactivityIndicatorViewController.swift */,
+				DDD682621E8A279000D07488 /* JVvisualEffectEaskViewController.swift */,
+			);
+			path = JVCALayerPlayground;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDD682481E89E07D00D07488 /* JVCALayerPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDD6825B1E89E07D00D07488 /* Build configuration list for PBXNativeTarget "JVCALayerPlayground" */;
+			buildPhases = (
+				DDD682451E89E07D00D07488 /* Sources */,
+				DDD682461E89E07D00D07488 /* Frameworks */,
+				DDD682471E89E07D00D07488 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JVCALayerPlayground;
+			productName = JVCALayerPlayground;
+			productReference = DDD682491E89E07D00D07488 /* JVCALayerPlayground.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDD682411E89E07D00D07488 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Jarvan;
+				TargetAttributes = {
+					DDD682481E89E07D00D07488 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3NLD2967N6;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DDD682441E89E07D00D07488 /* Build configuration list for PBXProject "JVCALayerPlayground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDD682401E89E07D00D07488;
+			productRefGroup = DDD6824A1E89E07D00D07488 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDD682481E89E07D00D07488 /* JVCALayerPlayground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDD682471E89E07D00D07488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD682571E89E07D00D07488 /* LaunchScreen.storyboard in Resources */,
+				DDD682541E89E07D00D07488 /* Assets.xcassets in Resources */,
+				DDD682521E89E07D00D07488 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDD682451E89E07D00D07488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD6824D1E89E07D00D07488 /* AppDelegate.swift in Sources */,
+				DDD682631E8A279000D07488 /* JVvisualEffectEaskViewController.swift in Sources */,
+				DDD6825F1E8A146C00D07488 /* JVmusicAppWidgetViewController.swift in Sources */,
+				DDD682611E8A151B00D07488 /* JVactivityIndicatorViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDD682501E89E07D00D07488 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDD682511E89E07D00D07488 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDD682551E89E07D00D07488 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDD682561E89E07D00D07488 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDD682591E89E07D00D07488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDD6825A1E89E07D00D07488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDD6825C1E89E07D00D07488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 3NLD2967N6;
+				INFOPLIST_FILE = JVCALayerPlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.New.JVCALayerPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DDD6825D1E89E07D00D07488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 3NLD2967N6;
+				INFOPLIST_FILE = JVCALayerPlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.New.JVCALayerPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDD682441E89E07D00D07488 /* Build configuration list for PBXProject "JVCALayerPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD682591E89E07D00D07488 /* Debug */,
+				DDD6825A1E89E07D00D07488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDD6825B1E89E07D00D07488 /* Build configuration list for PBXNativeTarget "JVCALayerPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD6825C1E89E07D00D07488 /* Debug */,
+				DDD6825D1E89E07D00D07488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDD682411E89E07D00D07488 /* Project object */;
+}

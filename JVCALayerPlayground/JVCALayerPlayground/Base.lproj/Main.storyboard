@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="HLE-XZ-tbT">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="E1z-Lj-msQ">
+            <objects>
+                <navigationController id="HLE-XZ-tbT" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="PFs-EV-WXc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ln2-XE-l3L" kind="relationship" relationship="rootViewController" id="mDQ-WO-qci"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7PA-en-bye" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2876" y="418"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1T0-e7-dfC">
+            <objects>
+                <viewController id="ln2-XE-l3L" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Kyy-Sf-5gs"/>
+                        <viewControllerLayoutGuide type="bottom" id="0sE-i4-KzC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gdb-yx-QFZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HfE-ZW-KsT">
+                                <rect key="frame" x="125" y="398.5" width="124" height="30"/>
+                                <state key="normal" title="visual effect mask"/>
+                                <connections>
+                                    <segue destination="bbj-R9-jrg" kind="push" id="TzY-SF-NLQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cH6-K5-5rK">
+                                <rect key="frame" x="126.5" y="238.5" width="121" height="30"/>
+                                <state key="normal" title="music app widget"/>
+                                <connections>
+                                    <segue destination="c5Y-aX-Lop" kind="push" id="zRO-aO-98U"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ace-cL-u8a">
+                                <rect key="frame" x="130" y="318.5" width="114" height="30"/>
+                                <state key="normal" title="activity indicator"/>
+                                <connections>
+                                    <segue destination="x5R-GD-LQg" kind="push" id="rbi-Vi-MEV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HfE-ZW-KsT" firstAttribute="centerY" secondItem="gdb-yx-QFZ" secondAttribute="centerY" constant="80" id="FiH-Cz-dqb"/>
+                            <constraint firstItem="cH6-K5-5rK" firstAttribute="centerX" secondItem="gdb-yx-QFZ" secondAttribute="centerX" id="bL8-Ry-kBC"/>
+                            <constraint firstItem="Ace-cL-u8a" firstAttribute="centerX" secondItem="gdb-yx-QFZ" secondAttribute="centerX" id="gev-gK-dVR"/>
+                            <constraint firstItem="HfE-ZW-KsT" firstAttribute="centerX" secondItem="gdb-yx-QFZ" secondAttribute="centerX" id="iHc-8m-NvE"/>
+                            <constraint firstItem="cH6-K5-5rK" firstAttribute="centerY" secondItem="gdb-yx-QFZ" secondAttribute="centerY" constant="-80" id="wau-0c-jWL"/>
+                            <constraint firstItem="Ace-cL-u8a" firstAttribute="centerY" secondItem="gdb-yx-QFZ" secondAttribute="centerY" id="yd4-2b-rrC"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Li6-RJ-pgk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7yH-dA-yD8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1900" y="418"/>
+        </scene>
+        <!--activity Indicator Layer-->
+        <scene sceneID="JB1-3k-aj5">
+            <objects>
+                <viewController id="x5R-GD-LQg" customClass="JVactivityIndicatorViewController" customModule="JVCALayerPlayground" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ym7-Fz-3cJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZTA-pl-7ps"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XNZ-9y-2VW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="V08-Kr-evm">
+                                <rect key="frame" x="177" y="498" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="activity Indicator Layer" id="JcB-Sc-EE4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tf5-qm-PKY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1122" y="920"/>
+        </scene>
+        <!--Visual Effect Eask-->
+        <scene sceneID="QZx-rj-3jE">
+            <objects>
+                <viewController id="bbj-R9-jrg" customClass="JVvisualEffectEaskViewController" customModule="JVCALayerPlayground" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="P3b-GQ-Xxa"/>
+                        <viewControllerLayoutGuide type="bottom" id="6F7-bu-WPL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XWh-VS-IoO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="123" translatesAutoresizingMaskIntoConstraints="NO" id="BfA-NZ-pcm">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C96-qh-D5Z">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="90k-w5-Yuj">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nxp-jd-hD5">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" id="i5o-rd-ibA">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            </view>
+                                            <vibrancyEffect>
+                                                <blurEffect style="light"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OgC-UM-pyf">
+                                <rect key="frame" x="137.5" y="587" width="100" height="30"/>
+                                <color key="backgroundColor" red="0.65490196079999996" green="0.83137254900000002" blue="0.1215686275" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="58X-S6-6uU"/>
+                                </constraints>
+                                <state key="normal" title="mask">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startAnimation:" destination="bbj-R9-jrg" eventType="touchUpInside" id="DL4-hk-qjs"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="C96-qh-D5Z" firstAttribute="leading" secondItem="XWh-VS-IoO" secondAttribute="leading" id="7ec-xq-UZI"/>
+                            <constraint firstItem="6F7-bu-WPL" firstAttribute="top" secondItem="C96-qh-D5Z" secondAttribute="bottom" id="9cd-cl-zTC"/>
+                            <constraint firstAttribute="trailing" secondItem="C96-qh-D5Z" secondAttribute="trailing" id="NcE-cE-1By"/>
+                            <constraint firstItem="OgC-UM-pyf" firstAttribute="centerX" secondItem="XWh-VS-IoO" secondAttribute="centerX" id="Wih-JH-Yzs"/>
+                            <constraint firstItem="C96-qh-D5Z" firstAttribute="top" secondItem="P3b-GQ-Xxa" secondAttribute="bottom" id="qwz-tP-ZYv"/>
+                            <constraint firstItem="BfA-NZ-pcm" firstAttribute="top" secondItem="XWh-VS-IoO" secondAttribute="top" id="sB1-oC-Xsb"/>
+                            <constraint firstItem="BfA-NZ-pcm" firstAttribute="leading" secondItem="XWh-VS-IoO" secondAttribute="leading" id="smC-m5-TEb"/>
+                            <constraint firstAttribute="trailing" secondItem="BfA-NZ-pcm" secondAttribute="trailing" id="vjI-Js-qkZ"/>
+                            <constraint firstItem="6F7-bu-WPL" firstAttribute="top" secondItem="OgC-UM-pyf" secondAttribute="bottom" constant="50" id="x5W-ke-IKa"/>
+                            <constraint firstItem="6F7-bu-WPL" firstAttribute="top" secondItem="BfA-NZ-pcm" secondAttribute="bottom" id="xSG-Kh-yph"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Visual Effect Eask" id="BVh-H7-aQJ"/>
+                    <connections>
+                        <outlet property="visualView" destination="C96-qh-D5Z" id="fCA-JO-wIW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="viM-JK-3RG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-359.19999999999999" y="485.30734632683664"/>
+        </scene>
+        <!--music app widget-->
+        <scene sceneID="f2K-cG-NDQ">
+            <objects>
+                <viewController id="c5Y-aX-Lop" customClass="JVmusicAppWidgetViewController" customModule="JVCALayerPlayground" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nBI-gU-mhG"/>
+                        <viewControllerLayoutGuide type="bottom" id="dT2-qA-JDl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="90B-6d-Nq0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="music app widget" id="5Be-lo-IWl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ylc-ct-Z4A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1122" y="236"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="123" width="372" height="696"/>
+    </resources>
+</document>
